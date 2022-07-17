@@ -1,0 +1,38 @@
+.header {
+  padding: 1rem;
+  background-color: var(--white);
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerContent > svg {
+  height: 9.375rem;
+  width: 9.375rem;
+  border-radius: 50%;
+  margin-bottom: 0.2rem;
+}
+
+.info address {
+  display: flex;
+  text-align: center;
+}
+
+.info address svg {
+  margin-right: 0.5rem;
+}
+
+.info a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  color: var(--black);
+}
+
+.info a svg {
+  margin-right: 0.5rem;
+}
