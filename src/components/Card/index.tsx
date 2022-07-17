@@ -1,3 +1,5 @@
+import { brazilPrice } from '../../formatters/currency'
+
 import styles from './Card.module.css'
 
 interface CardProps {
@@ -9,11 +11,6 @@ interface CardProps {
     price: number
   }
 }
-
-const brazilPrice = Intl.NumberFormat('pt-BR', {
-  style: 'currency',
-  currency: 'BRL'
-})
 
 export const Card = ({ food: { title, src, description, price } }: CardProps) => {
   return (
