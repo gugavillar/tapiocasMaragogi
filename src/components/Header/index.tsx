@@ -1,8 +1,8 @@
 import { memo } from 'react'
+
 import { PhoneCall, MapPin } from 'phosphor-react'
 
 import { Logo } from '../Icons/Logo'
-
 import styles from './Header.module.css'
 
 export const Header = memo(() => {
@@ -18,7 +18,7 @@ export const Header = memo(() => {
               <p>Gravatá - PE</p>
             </div>
           </address>
-          <a href='tel:81992869896'>
+          <a href="tel:81992869896">
             <PhoneCall size={18} />
             81 99286-9896
           </a>
@@ -27,3 +27,5 @@ export const Header = memo(() => {
     </header>
   )
 })
+
+Header.displayName = 'Header'

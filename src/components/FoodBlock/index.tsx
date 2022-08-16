@@ -1,9 +1,9 @@
 import { Fragment } from 'react'
+
 import { EffectCards } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import { Card } from '../Card'
-
 import 'swiper/css'
 import 'swiper/css/effect-cards'
 import styles from './FoodBlock.module.css'
@@ -24,7 +24,7 @@ export const FoodBlock = ({ title, foods }: FoodBlockProps) => {
     <Fragment>
       <h2 className={styles.title}>{title}</h2>
       <Swiper
-        effect='cards'
+        effect="cards"
         grabCursor={true}
         modules={[EffectCards]}
         className={styles.swiper}
