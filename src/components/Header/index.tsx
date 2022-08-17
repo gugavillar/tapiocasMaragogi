@@ -2,7 +2,8 @@ import { memo } from 'react'
 
 import { PhoneCall, MapPin } from 'phosphor-react'
 
-import { Logo } from '../Icons/Logo'
+import { Logo } from '@components/Icons/Logo'
+
 import styles from './Header.module.css'
 
 export const Header = memo(() => {

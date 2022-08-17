@@ -3,7 +3,8 @@ import { Fragment } from 'react'
 import { EffectCards } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import { Card } from '../Card'
+import { Card } from '@components/Card'
+
 import 'swiper/css'
 import 'swiper/css/effect-cards'
 import styles from './FoodBlock.module.css'

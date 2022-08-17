@@ -1,5 +1,6 @@
-import { DATA_SALGADAS } from '../../constants/data'
-import { FoodBlock } from '../FoodBlock'
+import { FoodBlock } from '@components/FoodBlock'
+import { DATA_SALGADAS } from '@constants/data'
+
 import styles from './Main.module.css'
 
 export const Main = () => {

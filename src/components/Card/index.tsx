@@ -1,4 +1,5 @@
-import { brazilPrice } from '../../formatters/currency'
+import { brazilPrice } from '@formatters/currency'
+
 import styles from './Card.module.css'
 
 interface CardProps {
